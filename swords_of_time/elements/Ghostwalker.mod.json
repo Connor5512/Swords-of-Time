@@ -1,0 +1,47 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "ghostwalker",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Ghostwalker",
+    "specialInformation": {
+      "fixedValue": [
+        "Grants slow falling when held. Grants invisibility upon use at the cost of 2 XP levels."
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "efficiency": 9.0,
+    "attackSpeed": 15.0,
+    "enchantability": 2,
+    "damageVsEntity": 5.0,
+    "usageCount": 0,
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "GhostwalkerRightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "GhostwalkerLivingEntityIsHitWithTool"
+    },
+    "onItemInUseTick": {
+      "name": "GhostwalkerToolInHandTick"
+    }
+  }
+}

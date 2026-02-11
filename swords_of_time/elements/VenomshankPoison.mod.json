@@ -1,0 +1,28 @@
+{
+  "_fv": 79,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:NonexistantItem"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:venomshank"
+    },
+    "igniteFire": false,
+    "disableGravity": false,
+    "power": 18.0,
+    "damage": 2.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 2.0,
+    "modelHeight": 0.5,
+    "onHitsEntity": {
+      "name": "VenomshankPoisonProjectileHitsLivingEntity"
+    },
+    "onFlyingTick": {
+      "name": "VenomshankPoisonWhileProjectileFlyingTick"
+    }
+  }
+}

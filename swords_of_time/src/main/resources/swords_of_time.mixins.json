@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "brookie.swordsoftime.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+      "SwordsOfTimeModRepairItemRecipeMixin"  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

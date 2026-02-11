@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "swords_of_time:item/ice_shaft"
+  }
+}

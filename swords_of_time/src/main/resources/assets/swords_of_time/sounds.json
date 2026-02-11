@@ -1,0 +1,221 @@
+{
+  "boss_finnmccool": {
+    "category": "record",
+    "subtitle": "subtitles.boss_finnmccool",
+    "sounds": [
+      {
+        "name": "swords_of_time:boss_finnmccool",
+        "stream": true
+      }
+    ]
+  },
+  "boss_statue": {
+    "category": "record",
+    "subtitle": "subtitles.boss_statue",
+    "sounds": [
+      {
+        "name": "swords_of_time:boss_statue",
+        "stream": true
+      }
+    ]
+  },
+  "boss_trotter": {
+    "category": "record",
+    "subtitle": "subtitles.boss_trotter",
+    "sounds": [
+      {
+        "name": "swords_of_time:boss_trotter",
+        "stream": true
+      }
+    ]
+  },
+  "boss_hatred": {
+    "category": "record",
+    "subtitle": "subtitles.boss_hatred",
+    "sounds": [
+      {
+        "name": "swords_of_time:boss_hatred",
+        "stream": true
+      }
+    ]
+  },
+  "post_plant": {
+    "category": "record",
+    "subtitle": "subtitles.post_plant",
+    "sounds": [
+      {
+        "name": "swords_of_time:post_plant",
+        "stream": true
+      }
+    ]
+  },
+  "post_ancients": {
+    "category": "record",
+    "subtitle": "subtitles.post_ancients",
+    "sounds": [
+      {
+        "name": "swords_of_time:post_ancients",
+        "stream": true
+      }
+    ]
+  },
+  "post_hatred": {
+    "category": "record",
+    "subtitle": "subtitles.post_hatred",
+    "sounds": [
+      {
+        "name": "swords_of_time:post_hatred",
+        "stream": true
+      }
+    ]
+  },
+  "boss_ancients": {
+    "category": "record",
+    "subtitle": "subtitles.boss_ancients",
+    "sounds": [
+      {
+        "name": "swords_of_time:boss_ancients",
+        "stream": true
+      }
+    ]
+  },
+  "boss_floccinaucinhilipilification": {
+    "category": "record",
+    "subtitle": "subtitles.boss_floccinaucinhilipilification",
+    "sounds": [
+      {
+        "name": "swords_of_time:boss_floccinaucinihilipilification",
+        "stream": true
+      }
+    ]
+  },
+  "boss_fear": {
+    "category": "record",
+    "subtitle": "subtitles.boss_fear",
+    "sounds": [
+      {
+        "name": "swords_of_time:boss_fear",
+        "stream": true
+      }
+    ]
+  },
+  "boss_solitude": {
+    "category": "record",
+    "subtitle": "subtitles.boss_solitude",
+    "sounds": [
+      {
+        "name": "swords_of_time:boss_solitude",
+        "stream": true
+      }
+    ]
+  },
+  "boss_greed": {
+    "category": "record",
+    "subtitle": "subtitles.boss_greed",
+    "sounds": [
+      {
+        "name": "swords_of_time:boss_greed",
+        "stream": true
+      }
+    ]
+  },
+  "boss_plant": {
+    "category": "record",
+    "subtitle": "subtitles.boss_plant",
+    "sounds": [
+      {
+        "name": "swords_of_time:boss_plant",
+        "stream": true
+      }
+    ]
+  },
+  "boss_griefer": {
+    "category": "record",
+    "subtitle": "subtitles.boss_griefer",
+    "sounds": [
+      {
+        "name": "swords_of_time:boss_griefer",
+        "stream": true
+      }
+    ]
+  },
+  "boss_cruel_king": {
+    "category": "record",
+    "subtitle": "subtitles.boss_cruel_king",
+    "sounds": [
+      {
+        "name": "swords_of_time:boss_cruel_king",
+        "stream": true
+      }
+    ]
+  },
+  "ice_dagger": {
+    "category": "neutral",
+    "subtitle": "subtitles.ice_dagger",
+    "sounds": [
+      {
+        "name": "swords_of_time:ice_dagger",
+        "stream": false
+      }
+    ]
+  },
+  "venomshank": {
+    "category": "neutral",
+    "subtitle": "subtitles.venomshank",
+    "sounds": [
+      {
+        "name": "swords_of_time:venomshank",
+        "stream": false
+      }
+    ]
+  },
+  "ghostwalker": {
+    "category": "neutral",
+    "subtitle": "subtitles.ghostwalker",
+    "sounds": [
+      {
+        "name": "swords_of_time:ghostwalker",
+        "stream": false
+      }
+    ]
+  },
+  "firebrand": {
+    "category": "neutral",
+    "subtitle": "subtitles.firebrand",
+    "sounds": [
+      {
+        "name": "swords_of_time:firebrand",
+        "stream": false
+      }
+    ]
+  },
+  "action_blocked": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "swords_of_time:action_blocked",
+        "stream": false
+      }
+    ]
+  },
+  "ball": {
+    "category": "neutral",
+    "subtitle": "subtitles.ball",
+    "sounds": [
+      {
+        "name": "swords_of_time:ball",
+        "stream": false
+      }
+    ]
+  },
+  "ball_throw": {
+    "category": "neutral",
+    "subtitle": "subtitles.ball_throw",
+    "sounds": [
+      {
+        "name": "swords_of_time:ball_throw",
+        "stream": false
+      }
+    ]
+  }
+}

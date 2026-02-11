@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:blue_ice"
+    },
+    "b": {
+      "item": "minecraft:iron_sword"
+    },
+    "c": {
+      "item": "swords_of_time:ice_shaft"
+    }
+  },
+  "result": {
+    "item": "swords_of_time:ice_dagger",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "swords_of_time:item/venomshank"
+  }
+}

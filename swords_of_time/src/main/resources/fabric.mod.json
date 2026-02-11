@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "swords_of_time",
+  "version": "1.0.0",
+  "name": "Swords of Time",
+  "description": "A (bad) mod inspired by the Roblox game \"Block Tales\".",
+  "authors": [
+    "Brookie"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/swords_of_time/icon.png",
+  "accessWidener": "swords_of_time.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "brookie.swordsoftime.SwordsOfTimeMod"
+    ],
+    "client": [
+      "brookie.swordsoftime.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "swords_of_time.mixins.json"
+  ]
+}

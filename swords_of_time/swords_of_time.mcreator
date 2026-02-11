@@ -1,0 +1,1207 @@
+{
+  "mod_elements": [
+    {
+      "name": "IceDaggerRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_dagger_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/IceDaggerRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Swords/Programming/Ice Dagger"
+    },
+    {
+      "name": "IceDaggerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_dagger_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/IceDaggerLivingEntityIsHitWithToolProcedure.java"
+        ]
+      },
+      "path": "~/Swords/Programming/Ice Dagger"
+    },
+    {
+      "name": "IceDagger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_dagger",
+      "metadata": {
+        "files": [
+          "src/main/java/brookie/swordsoftime/item/IceDaggerItem.java",
+          "src/main/resources/assets/swords_of_time/models/item/ice_dagger.json"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "Venomshank",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomshank",
+      "metadata": {
+        "files": [
+          "src/main/java/brookie/swordsoftime/item/VenomshankItem.java",
+          "src/main/resources/assets/swords_of_time/models/item/venomshank.json"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "NonexistantItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nonexistant_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/swords_of_time/models/item/nonexistant_item.json",
+          "src/main/java/brookie/swordsoftime/item/NonexistantItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "VenomshankPoisonProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomshank_poison_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/VenomshankPoisonProjectileHitsLivingEntityProcedure.java"
+        ]
+      },
+      "path": "~/Swords/Programming/Venomshank"
+    },
+    {
+      "name": "VenomshankParticles",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomshank_particles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/swords_of_time/particles/venomshank_particles.json",
+          "src/main/java/brookie/swordsoftime/client/particle/VenomshankParticlesParticle.java"
+        ]
+      },
+      "path": "~/Swords/Programming/Venomshank"
+    },
+    {
+      "name": "VenomshankPoisonWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomshank_poison_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/VenomshankPoisonWhileProjectileFlyingTickProcedure.java"
+        ]
+      },
+      "path": "~/Swords/Programming/Venomshank"
+    },
+    {
+      "name": "VenomshankPoison",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomshank_poison",
+      "metadata": {
+        "files": [
+          "src/main/java/brookie/swordsoftime/entity/VenomshankPoisonEntity.java"
+        ]
+      },
+      "path": "~/Swords/Programming/Venomshank"
+    },
+    {
+      "name": "VenomshankRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomshank_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/VenomshankRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Swords/Programming/Venomshank"
+    },
+    {
+      "name": "VenomshankLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomshank_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/VenomshankLivingEntityIsHitWithToolProcedure.java"
+        ]
+      },
+      "path": "~/Swords/Programming/Venomshank"
+    },
+    {
+      "name": "Ghostwalker",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghostwalker",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/swords_of_time/models/item/ghostwalker.json",
+          "src/main/java/brookie/swordsoftime/item/GhostwalkerItem.java"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "GhostwalkerRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghostwalker_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/GhostwalkerRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Swords/Programming/Ghostwalker"
+    },
+    {
+      "name": "GhostwalkerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghostwalker_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/GhostwalkerLivingEntityIsHitWithToolProcedure.java"
+        ]
+      },
+      "path": "~/Swords/Programming/Ghostwalker"
+    },
+    {
+      "name": "GhostwalkerToolInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghostwalker_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/GhostwalkerToolInHandTickProcedure.java"
+        ]
+      },
+      "path": "~/Swords/Programming/Ghostwalker"
+    },
+    {
+      "name": "Firebrand",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firebrand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/swords_of_time/models/item/firebrand.json",
+          "src/main/java/brookie/swordsoftime/item/FirebrandItem.java"
+        ]
+      },
+      "path": "~/Swords"
+    },
+    {
+      "name": "FirebrandFlames",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firebrand_flames",
+      "metadata": {
+        "files": [
+          "src/main/java/brookie/swordsoftime/entity/FirebrandFlamesEntity.java"
+        ]
+      },
+      "path": "~/Swords/Programming/Firebrand"
+    },
+    {
+      "name": "FirebrandFire",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firebrand_fire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/swords_of_time/particles/firebrand_fire.json",
+          "src/main/java/brookie/swordsoftime/client/particle/FirebrandFireParticle.java"
+        ]
+      },
+      "path": "~/Swords/Programming/Firebrand"
+    },
+    {
+      "name": "FirebrandFlamesWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firebrand_flames_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/FirebrandFlamesWhileProjectileFlyingTickProcedure.java"
+        ]
+      },
+      "path": "~/Swords/Programming/Firebrand"
+    },
+    {
+      "name": "FirebrandFlamesProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firebrand_flames_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/FirebrandFlamesProjectileHitsLivingEntityProcedure.java"
+        ]
+      },
+      "path": "~/Swords/Programming/Firebrand"
+    },
+    {
+      "name": "FirebrandRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firebrand_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/FirebrandRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Swords/Programming/Firebrand"
+    },
+    {
+      "name": "FirebrandLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firebrand_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/FirebrandLivingEntityIsHitWithToolProcedure.java"
+        ]
+      },
+      "path": "~/Swords/Programming/Firebrand"
+    },
+    {
+      "name": "Superball",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superball",
+      "metadata": {
+        "files": [
+          "src/main/java/brookie/swordsoftime/item/SuperballItem.java",
+          "src/main/resources/assets/swords_of_time/models/item/superball.json"
+        ]
+      }
+    },
+    {
+      "name": "ThrownSuperballProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thrown_superball_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/ThrownSuperballProjectileHitsLivingEntityProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ThrownSuperball",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thrown_superball",
+      "metadata": {
+        "files": [
+          "src/main/java/brookie/swordsoftime/entity/ThrownSuperballEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Hyperball",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyperball",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/swords_of_time/models/item/hyperball.json",
+          "src/main/java/brookie/swordsoftime/item/HyperballItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ThrownHyperball",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thrown_hyperball",
+      "metadata": {
+        "files": [
+          "src/main/java/brookie/swordsoftime/entity/ThrownHyperballEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ThrownHyperballProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thrown_hyperball_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/ThrownHyperballProjectileHitsLivingEntityProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ThrownSuperballProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thrown_superball_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/ThrownSuperballProjectileHitsBlockProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ThrownHyperballProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thrown_hyperball_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/ThrownHyperballProjectileHitsBlockProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HyperballCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyperball_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/swords_of_time/recipes/hyperball_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SuperballCraftingPink",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superball_crafting_pink",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/swords_of_time/recipes/superball_crafting_pink.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ABlockyTale",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_blocky_tale",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/swords_of_time/advancements/a_blocky_tale.json"
+        ]
+      },
+      "path": "~/Advancement Tree"
+    },
+    {
+      "name": "IceScepterLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_scepter_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/IceScepterLivingEntityIsHitWithItemProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "IceShaft",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_shaft",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/swords_of_time/models/item/ice_shaft.json",
+          "src/main/java/brookie/swordsoftime/item/IceShaftItem.java"
+        ]
+      }
+    },
+    {
+      "name": "IceShaftCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_shaft_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/swords_of_time/recipes/ice_shaft_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IceDaggerCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_dagger_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/swords_of_time/recipes/ice_dagger_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NetheriteShaft",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_shaft",
+      "metadata": {
+        "files": [
+          "src/main/java/brookie/swordsoftime/item/NetheriteShaftItem.java",
+          "src/main/resources/assets/swords_of_time/models/item/netherite_shaft.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteShaftSmithing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_shaft_smithing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/swords_of_time/recipes/netherite_shaft_smithing.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "VenomshankCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomshank_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/swords_of_time/recipes/venomshank_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GhostwalkerCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghostwalker_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/swords_of_time/recipes/ghostwalker_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirebrandCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firebrand_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/swords_of_time/recipes/firebrand_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LinkedSwordRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "linked_sword_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/brookie/swordsoftime/procedures/LinkedSwordRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LinkedSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "linked_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/swords_of_time/models/item/linked_sword.json",
+          "src/main/java/brookie/swordsoftime/item/LinkedSwordItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "boss_finnmccool",
+      "files": [
+        "boss_finnmccool"
+      ],
+      "category": "record",
+      "subtitle": "Jukebox Plays"
+    },
+    {
+      "name": "boss_statue",
+      "files": [
+        "boss_statue"
+      ],
+      "category": "record",
+      "subtitle": "Jukebox Plays"
+    },
+    {
+      "name": "boss_trotter",
+      "files": [
+        "boss_trotter"
+      ],
+      "category": "record",
+      "subtitle": "Jukebox Plays"
+    },
+    {
+      "name": "boss_hatred",
+      "files": [
+        "boss_hatred"
+      ],
+      "category": "record",
+      "subtitle": "Jukebox Plays"
+    },
+    {
+      "name": "post_plant",
+      "files": [
+        "post_plant"
+      ],
+      "category": "record",
+      "subtitle": "Jukebox Plays"
+    },
+    {
+      "name": "post_ancients",
+      "files": [
+        "post_ancients"
+      ],
+      "category": "record",
+      "subtitle": "Jukebox Plays"
+    },
+    {
+      "name": "post_hatred",
+      "files": [
+        "post_hatred"
+      ],
+      "category": "record",
+      "subtitle": "Jukebox Plays"
+    },
+    {
+      "name": "boss_ancients",
+      "files": [
+        "boss_ancients"
+      ],
+      "category": "record",
+      "subtitle": "Jukebox Plays"
+    },
+    {
+      "name": "boss_floccinaucinhilipilification",
+      "files": [
+        "boss_floccinaucinihilipilification"
+      ],
+      "category": "record",
+      "subtitle": "Jukebox Plays"
+    },
+    {
+      "name": "boss_fear",
+      "files": [
+        "boss_fear"
+      ],
+      "category": "record",
+      "subtitle": "Jukebox Plays"
+    },
+    {
+      "name": "boss_solitude",
+      "files": [
+        "boss_solitude"
+      ],
+      "category": "record",
+      "subtitle": "Jukebox Plays"
+    },
+    {
+      "name": "boss_greed",
+      "files": [
+        "boss_greed"
+      ],
+      "category": "record",
+      "subtitle": "Jukebox Plays"
+    },
+    {
+      "name": "boss_plant",
+      "files": [
+        "boss_plant"
+      ],
+      "category": "record",
+      "subtitle": "Jukebox Plays"
+    },
+    {
+      "name": "boss_griefer",
+      "files": [
+        "boss_griefer"
+      ],
+      "category": "record",
+      "subtitle": "Jukebox Plays"
+    },
+    {
+      "name": "boss_cruel_king",
+      "files": [
+        "boss_cruel_king"
+      ],
+      "category": "record",
+      "subtitle": "Jukebox Plays"
+    },
+    {
+      "name": "ice_dagger",
+      "files": [
+        "ice_dagger"
+      ],
+      "category": "neutral",
+      "subtitle": "Ice Dagger Activated"
+    },
+    {
+      "name": "venomshank",
+      "files": [
+        "venomshank"
+      ],
+      "category": "neutral",
+      "subtitle": "Venomshank Activated"
+    },
+    {
+      "name": "ghostwalker",
+      "files": [
+        "ghostwalker"
+      ],
+      "category": "neutral",
+      "subtitle": "Ghostwalker Activated"
+    },
+    {
+      "name": "firebrand",
+      "files": [
+        "firebrand"
+      ],
+      "category": "neutral",
+      "subtitle": "Firebrand Activated"
+    },
+    {
+      "name": "action_blocked",
+      "files": [
+        "action_blocked"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "ball",
+      "files": [
+        "ball"
+      ],
+      "category": "neutral",
+      "subtitle": "Ball Bounces"
+    },
+    {
+      "name": "ball_throw",
+      "files": [
+        "ball_throw"
+      ],
+      "category": "neutral",
+      "subtitle": "Ball Thrown"
+    }
+  ],
+  "tag_elements": {},
+  "tab_element_order": {
+    "COMBAT": [
+      "LinkedSword",
+      "IceDagger",
+      "Venomshank",
+      "Ghostwalker",
+      "Firebrand",
+      "Superball",
+      "Hyperball"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "subtitles.boss_finnmccool": "Jukebox Plays",
+      "subtitles.boss_statue": "Jukebox Plays",
+      "subtitles.boss_trotter": "Jukebox Plays",
+      "subtitles.boss_hatred": "Jukebox Plays",
+      "subtitles.post_plant": "Jukebox Plays",
+      "subtitles.post_ancients": "Jukebox Plays",
+      "subtitles.post_hatred": "Jukebox Plays",
+      "subtitles.boss_ancients": "Jukebox Plays",
+      "subtitles.boss_floccinaucinhilipilification": "Jukebox Plays",
+      "subtitles.boss_fear": "Jukebox Plays",
+      "subtitles.boss_solitude": "Jukebox Plays",
+      "subtitles.boss_greed": "Jukebox Plays",
+      "subtitles.boss_plant": "Jukebox Plays",
+      "subtitles.boss_griefer": "Jukebox Plays",
+      "subtitles.boss_cruel_king": "Jukebox Plays",
+      "subtitles.ice_dagger": "Ice Dagger Activated",
+      "subtitles.venomshank": "Venomshank Activated",
+      "subtitles.ghostwalker": "Ghostwalker Activated",
+      "subtitles.firebrand": "Firebrand Activated",
+      "item.swords_of_time.ice_dagger": "Ice Dagger",
+      "item.swords_of_time.venomshank": "Venomshank",
+      "item.swords_of_time.nonexistant_item": "Nonexistant Item",
+      "item.swords_of_time.ghostwalker": "Ghostwalker",
+      "item.swords_of_time.firebrand": "Firebrand",
+      "subtitles.action_blocked": "",
+      "item.swords_of_time.superball": "Superball",
+      "subtitles.ball": "Ball Bounces",
+      "subtitles.ball_throw": "Ball Thrown",
+      "item.swords_of_time.hyperball": "Hyperball",
+      "advancements.a_blocky_tale.title": "A Blocky Tale",
+      "advancements.a_blocky_tale.descr": "The tale begins...",
+      "item.swords_of_time.ice_shaft": "Ice Shaft",
+      "item.swords_of_time.netherite_shaft": "Netherite Shaft",
+      "item.swords_of_time.linked_sword": "Linked Sword"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/brookie/swordsoftime/SwordsOfTimeMod.java",
+      "src/main/java/brookie/swordsoftime/ClientInit.java",
+      "src/main/resources/swords_of_time.mixins.json",
+      "src/main/resources/assets/swords_of_time/sounds.json",
+      "src/main/resources/swords_of_time.accesswidener",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/brookie/swordsoftime/init/SwordsOfTimeModSounds.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/brookie/swordsoftime/init/SwordsOfTimeModParticleTypes.java",
+      "src/main/java/brookie/swordsoftime/init/SwordsOfTimeModProcedures.java",
+      "src/main/java/brookie/swordsoftime/init/SwordsOfTimeModItems.java",
+      "src/main/java/brookie/swordsoftime/mixins/SwordsOfTimeModRepairItemRecipeMixin.java",
+      "src/main/java/brookie/swordsoftime/init/SwordsOfTimeModEntityRenderers.java",
+      "src/main/java/brookie/swordsoftime/init/SwordsOfTimeModEntities.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Swords",
+        "children": [
+          {
+            "name": "Programming",
+            "children": [
+              {
+                "name": "Ice Dagger",
+                "children": []
+              },
+              {
+                "name": "Venomshank",
+                "children": []
+              },
+              {
+                "name": "Ghostwalker",
+                "children": []
+              },
+              {
+                "name": "Firebrand",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Advancement Tree",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "swords_of_time",
+    "modName": "Swords of Time",
+    "version": "1.0.0",
+    "description": "A (bad) mod inspired by the Roblox game \\\"Block Tales\\\".",
+    "author": "Brookie",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "logo_stylized",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Credits to the Block Tales team for the concept and inspiration, as well as the creator(s) of Sword Fight on the Heights for the swords.",
+    "modElementsPackage": "brookie.swordsoftime"
+  },
+  "mcreatorVersion": 202500228610
+}
